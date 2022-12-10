@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="621px" preserveAspectRatio="none" style="width:1261px;height:621px;" version="1.1" viewBox="0 0 1261 621" width="1261px" zoomAndPan="magnify"><defs><filter height="300%" id="f1s9ragd12rzer" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ab5d666d3430935d7eb3d5a9dd73bf5a]
+cluster Central_Unit_--><rect fill="#FFFFFF" filter="url(#f1s9ragd12rzer)" height="602" style="stroke:#000000;stroke-width:1.5;" width="1242" x="7" y="7"/><path d="M104,7 L104,16.4883 L94,26.4883 L7,26.4883 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="10" y="21.5352">Central Unit</text><!--MD5=[986148626b1e007b0b2bf3b4093e53d2]
+cluster Mechanical_ECU_--><rect fill="#FFFFFF" filter="url(#f1s9ragd12rzer)" height="275" style="stroke:#000000;stroke-width:1.5;" width="791" x="434" y="50"/><path d="M556,50 L556,59.4883 L546,69.4883 L434,69.4883 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="437" y="64.5352">Mechanical ECU</text><!--MD5=[59fba3fafd1b6370e5923b05cb695f6b]
+cluster Sensor_ECU_--><rect fill="#FFFFFF" filter="url(#f1s9ragd12rzer)" height="256" style="stroke:#000000;stroke-width:1.5;" width="379" x="31" y="211"/><path d="M122,211 L122,220.4883 L112,230.4883 L31,230.4883 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="34" y="225.5352">Sensor ECU</text><!--MD5=[138ad13c67cd213937a7687c93f2f21f]
+entity Central_Unit_Memory_--><rect fill="#60FF82" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="194" x="421" y="530"/><rect fill="#60FF82" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="595" y="535"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="593" y="537"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="593" y="541"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="478.5" y="563.5352">«Memory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="436" y="580.0234">Central_Unit_Memory_</text><!--MD5=[df9b67bec885d82f80bafdd00f084064]
+entity Mechanical_Memory_--><rect fill="#60FF82" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="185" x="528.5" y="246"/><rect fill="#60FF82" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="693.5" y="251"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="691.5" y="253"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="691.5" y="257"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="581.5" y="279.5352">«Memory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="543.5" y="296.0234">Mechanical_Memory_</text><!--MD5=[966ed14530700744db56eacb76d14841]
+entity Brake_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="1053" y="85"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1189" y="90"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1187" y="92"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1187" y="96"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="1068" y="118.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1086" y="135.0234">Brake_Unit_</text><!--MD5=[792f201b88870bd3525b3c9d98caf1a7]
+entity Gas_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="862" y="85"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="998" y="90"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="996" y="92"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="996" y="96"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="877" y="118.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="901.5" y="135.0234">Gas_Unit_</text><!--MD5=[30e0cd4c1689ed8e74ee193ff2f48aa0]
+entity Wheel_Encoder_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="186" x="641" y="85"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="807" y="90"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="805" y="92"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="805" y="96"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="671" y="118.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="656" y="135.0234">Wheel_Encoder_Unit_</text><!--MD5=[c13e0816a445b4976a26646270550964]
+entity Gear_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="450" y="85"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="586" y="90"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="584" y="92"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="584" y="96"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="465" y="118.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="486" y="135.0234">Gear_Unit_</text><!--MD5=[e267d115d22bde317d35a14fe91c91b1]
+entity Sensor_Memory_--><rect fill="#60FF82" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="228" y="388"/><rect fill="#60FF82" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="364" y="393"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="362" y="395"/><rect fill="#60FF82" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="362" y="399"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="266.5" y="421.5352">«Memory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="243" y="438.0234">Sensor_Memory_</text><!--MD5=[d68d4118184c39dc2e9a566de9e678be]
+entity Camera_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="238" y="246"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="374" y="251"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="372" y="253"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="372" y="257"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="253" y="279.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="263.5" y="296.0234">Camera_Unit_</text><!--MD5=[67f379f124a8aa4dd70e723c4ffdd230]
+entity Radar_Unit_--><rect fill="#8CACFF" filter="url(#f1s9ragd12rzer)" height="62.9766" style="stroke:#000000;stroke-width:1.5;" width="156" x="47" y="246"/><rect fill="#8CACFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="183" y="251"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="181" y="253"/><rect fill="#8CACFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="181" y="257"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="116" x="62" y="279.5352">«ProcessingUnit»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="79" y="296.0234">Radar_Unit_</text><!--MD5=[5ae5bc98a8e7504bfaf895bd106f3793]
+link Mechanical_Memory_ to Central_Unit_Memory_--><path d="M609.68,309.49 C589.82,363.86 548.94,475.79 529.18,529.89 " fill="none" id="Mechanical_Memory_-Central_Unit_Memory_" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="580" y="424.5684">Mechanic Informations</text><!--MD5=[6bd89a4ac7bd36d66621ef6b0dcfc364]
+link Mechanical_Memory_ to Sensor_Memory_--><path d="M529.63,309.45 C503.91,318.88 476.11,329.74 451,341 C420.01,354.9 386.5,372.62 359.51,387.61 " fill="none" id="Mechanical_Memory_-Sensor_Memory_" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="452" y="354.5684">Sensor Information</text><!--MD5=[3f8786673ce28565153cba2f63c692a1]
+link Sensor_Memory_ to Central_Unit_Memory_--><path d="M352.38,451.38 C364,459.1 376.45,467.36 388,475 C415.49,493.18 446.3,513.45 471.03,529.69 " fill="none" id="Sensor_Memory_-Central_Unit_Memory_" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="425" y="496.5684">Sensor Values</text><!--MD5=[a7843d5e72a88d1ff7e7cb7c1967db0b]
+link Brake_Unit_ to Mechanical_Memory_--><path d="M1052.67,144.64 C1008.06,159.87 951.06,178.98 900,195 C840.54,213.65 773.52,233.27 720.08,248.59 " fill="none" id="Brake_Unit_-to-Mechanical_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="715.41,249.92,725.1615,251.3013,720.2187,248.5502,722.9698,243.6073,715.41,249.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="951" y="191.5684">Brake_Value</text><!--MD5=[968ae3bcb27fc518631487c000afe5a2]
+link Gas_Unit_ to Mechanical_Memory_--><path d="M883.47,148.31 C856.53,162.79 823.77,180.1 794,195 C761.58,211.23 725.34,228.44 694.44,242.85 " fill="none" id="Gas_Unit_-to-Mechanical_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="690.1,244.87,699.9476,244.7126,694.636,242.7665,696.5821,237.455,690.1,244.87" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="827" y="191.5684">Gas_Value</text><!--MD5=[80dd8d2b856cfd8c5e744e1c0f9be3ec]
+link Wheel_Encoder_Unit_ to Mechanical_Memory_--><path d="M712.21,148.16 C693.44,174.58 666.31,212.75 646.52,240.59 " fill="none" id="Wheel_Encoder_Unit_-to-Mechanical_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="643.79,244.43,652.2694,239.4201,646.6908,240.3575,645.7534,234.7788,643.79,244.43" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="691" y="191.5684">Rotation_Value</text><!--MD5=[0b5f71694bc4a657eddcd58ffe8b40af]
+link Gear_Unit_ to Mechanical_Memory_--><path d="M545.93,148.16 C561.32,174.47 583.53,212.43 599.79,240.25 " fill="none" id="Gear_Unit_-to-Mechanical_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="602.2,244.36,601.1001,234.5727,599.6718,240.0463,594.1982,238.6179,602.2,244.36" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="572" y="191.5684">Gear_Info</text><!--MD5=[f0eb51cc1b70f2adeb88dc70dd18eb8e]
+link Camera_Unit_ to Sensor_Memory_--><path d="M312.77,309.31 C311.78,319.4 310.76,330.67 310,341 C309.04,354.04 308.23,368.34 307.6,381.06 " fill="none" id="Camera_Unit_-to-Sensor_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="307.36,386.04,311.7919,377.2447,307.6026,381.0459,303.8013,376.8565,307.36,386.04" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="311" y="354.5684">Distance_Value</text><!--MD5=[8ffb041a809681d9f1dd072f96b7927f]
+link Radar_Unit_ to Sensor_Memory_--><path d="M151.81,309.49 C166.13,325.05 184.56,343.6 203,358 C215.05,367.41 228.7,376.42 242.03,384.47 " fill="none" id="Radar_Unit_-to-Sensor_Memory_" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="246.02,386.85,240.3408,378.8035,241.7262,384.2881,236.2417,385.6735,246.02,386.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#C0C0C0" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="204" y="354.5684">Distance_Value</text><!--MD5=[67ae97590658e2ed065fc0505a81fc8e]
+@startuml
+
+' ===== FRAMES =====
+
+	frame "Central Unit" as Central_Unit_ {
+	
+		[Central_Unit_Memory_] as Central_Unit_Memory_ <<Memory>>
+	
+		frame "Mechanical ECU" as Mechanical_ECU_ {
+		
+			[Mechanical_Memory_] as Mechanical_Memory_ <<Memory>>
+			[Brake_Unit_] as Brake_Unit_ <<ProcessingUnit>>
+			[Gas_Unit_] as Gas_Unit_ <<ProcessingUnit>>
+			[Wheel_Encoder_Unit_] as Wheel_Encoder_Unit_ <<ProcessingUnit>>
+			[Gear_Unit_] as Gear_Unit_ <<ProcessingUnit>>
+		}
+	
+		frame "Sensor ECU" as Sensor_ECU_ {
+		
+			[Sensor_Memory_] as Sensor_Memory_ <<Memory>>
+			[Camera_Unit_] as Camera_Unit_ <<ProcessingUnit>>
+			[Radar_Unit_] as Radar_Unit_ <<ProcessingUnit>>
+		}
+	}
+
+' ===== ROUTES =====
+
+' add physical connections of structure Central Unit:
+
+	Mechanical_Memory_ - - Central_Unit_Memory_ : Mechanic Informations
+
+	Mechanical_Memory_ - - Sensor_Memory_ : Sensor Information
+
+	Sensor_Memory_ - - Central_Unit_Memory_ : Sensor Values
+
+' add logical connections of processing unit Brake Unit:
+
+	Brake_Unit_ ..>Mechanical_Memory_ : Brake_Value
+
+' add logical connections of processing unit Gas Unit:
+
+	Gas_Unit_ ..>Mechanical_Memory_ : Gas_Value
+
+' add logical connections of processing unit Wheel Encoder Unit:
+
+	Wheel_Encoder_Unit_ ..>Mechanical_Memory_ : Rotation_Value
+
+' add logical connections of processing unit Gear Unit:
+
+	Gear_Unit_ ..>Mechanical_Memory_ : Gear_Info
+
+' add logical connections of processing unit Camera Unit:
+
+	Camera_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+' add logical connections of processing unit Radar Unit:
+
+	Radar_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+skinparam component {
+	backgroundColor<<ProcessingUnit>> #8CACFF
+	borderColor<<ProcessingUnit>> #000000
+	backgroundColor<<ConnectionHandler>> #FFFFA0
+	borderColor<<ConnectionHandler>> #000000
+	backgroundColor<<Memory>> #60FF82
+	borderColor<<Memory>> #000000
+	backgroundColor<<Cache>> #C8FFA6
+	borderColor<<Cache>> #000000
+	ArrowFontColor #C0C0C0
+}
+
+@enduml
+
+@startuml
+
+
+	frame "Central Unit" as Central_Unit_ {
+	
+		[Central_Unit_Memory_] as Central_Unit_Memory_ <<Memory>>
+	
+		frame "Mechanical ECU" as Mechanical_ECU_ {
+		
+			[Mechanical_Memory_] as Mechanical_Memory_ <<Memory>>
+			[Brake_Unit_] as Brake_Unit_ <<ProcessingUnit>>
+			[Gas_Unit_] as Gas_Unit_ <<ProcessingUnit>>
+			[Wheel_Encoder_Unit_] as Wheel_Encoder_Unit_ <<ProcessingUnit>>
+			[Gear_Unit_] as Gear_Unit_ <<ProcessingUnit>>
+		}
+	
+		frame "Sensor ECU" as Sensor_ECU_ {
+		
+			[Sensor_Memory_] as Sensor_Memory_ <<Memory>>
+			[Camera_Unit_] as Camera_Unit_ <<ProcessingUnit>>
+			[Radar_Unit_] as Radar_Unit_ <<ProcessingUnit>>
+		}
+	}
+
+
+
+	Mechanical_Memory_ - - Central_Unit_Memory_ : Mechanic Informations
+
+	Mechanical_Memory_ - - Sensor_Memory_ : Sensor Information
+
+	Sensor_Memory_ - - Central_Unit_Memory_ : Sensor Values
+
+
+	Brake_Unit_ ..>Mechanical_Memory_ : Brake_Value
+
+
+	Gas_Unit_ ..>Mechanical_Memory_ : Gas_Value
+
+
+	Wheel_Encoder_Unit_ ..>Mechanical_Memory_ : Rotation_Value
+
+
+	Gear_Unit_ ..>Mechanical_Memory_ : Gear_Info
+
+
+	Camera_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+
+	Radar_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+skinparam component {
+	backgroundColor<<ProcessingUnit>> #8CACFF
+	borderColor<<ProcessingUnit>> #000000
+	backgroundColor<<ConnectionHandler>> #FFFFA0
+	borderColor<<ConnectionHandler>> #000000
+	backgroundColor<<Memory>> #60FF82
+	borderColor<<Memory>> #000000
+	backgroundColor<<Cache>> #C8FFA6
+	borderColor<<Cache>> #000000
+	ArrowFontColor #C0C0C0
+}
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 13:20:28 CEST 2021)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

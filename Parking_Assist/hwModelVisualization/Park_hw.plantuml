@@ -1,0 +1,72 @@
+@startuml
+
+' ===== FRAMES =====
+
+	frame "Central Unit" as Central_Unit_ {
+	
+		[Central_Unit_Memory_] as Central_Unit_Memory_ <<Memory>>
+	
+		frame "Mechanical ECU" as Mechanical_ECU_ {
+		
+			[Mechanical_Memory_] as Mechanical_Memory_ <<Memory>>
+			[Brake_Unit_] as Brake_Unit_ <<ProcessingUnit>>
+			[Gas_Unit_] as Gas_Unit_ <<ProcessingUnit>>
+			[Wheel_Encoder_Unit_] as Wheel_Encoder_Unit_ <<ProcessingUnit>>
+			[Gear_Unit_] as Gear_Unit_ <<ProcessingUnit>>
+		}
+	
+		frame "Sensor ECU" as Sensor_ECU_ {
+		
+			[Sensor_Memory_] as Sensor_Memory_ <<Memory>>
+			[Camera_Unit_] as Camera_Unit_ <<ProcessingUnit>>
+			[Radar_Unit_] as Radar_Unit_ <<ProcessingUnit>>
+		}
+	}
+
+' ===== ROUTES =====
+
+' add physical connections of structure Central Unit:
+
+	Mechanical_Memory_ -- Central_Unit_Memory_ : Mechanic Informations
+
+	Mechanical_Memory_ -- Sensor_Memory_ : Sensor Information
+
+	Sensor_Memory_ -- Central_Unit_Memory_ : Sensor Values
+
+' add logical connections of processing unit Brake Unit:
+
+	Brake_Unit_ ..>Mechanical_Memory_ : Brake_Value
+
+' add logical connections of processing unit Gas Unit:
+
+	Gas_Unit_ ..>Mechanical_Memory_ : Gas_Value
+
+' add logical connections of processing unit Wheel Encoder Unit:
+
+	Wheel_Encoder_Unit_ ..>Mechanical_Memory_ : Rotation_Value
+
+' add logical connections of processing unit Gear Unit:
+
+	Gear_Unit_ ..>Mechanical_Memory_ : Gear_Info
+
+' add logical connections of processing unit Camera Unit:
+
+	Camera_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+' add logical connections of processing unit Radar Unit:
+
+	Radar_Unit_ ..>Sensor_Memory_ : Distance_Value
+
+skinparam component {
+	backgroundColor<<ProcessingUnit>> #8CACFF
+	borderColor<<ProcessingUnit>> #000000
+	backgroundColor<<ConnectionHandler>> #FFFFA0
+	borderColor<<ConnectionHandler>> #000000
+	backgroundColor<<Memory>> #60FF82
+	borderColor<<Memory>> #000000
+	backgroundColor<<Cache>> #C8FFA6
+	borderColor<<Cache>> #000000
+	ArrowFontColor #C0C0C0
+}
+
+@enduml

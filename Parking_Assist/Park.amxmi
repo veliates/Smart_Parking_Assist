@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<am:Amalthea xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:am="http://app4mc.eclipse.org/amalthea/2.2.0">
+  <swModel>
+    <tasks xmi:id="Task1?type=Task" name="Task1" stimuli="Period_stimuli?type=PeriodicStimulus" multipleTaskActivationLimit="0">
+      <activityGraph>
+        <items xsi:type="am:RunnableCall" runnable="Runnable1?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Loading_Func?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable2?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable3?type=Runnable"/>
+      </activityGraph>
+    </tasks>
+    <tasks xmi:id="Task2?type=Task" name="Task2" stimuli="Period_stimuli?type=PeriodicStimulus" multipleTaskActivationLimit="0">
+      <activityGraph>
+        <items xsi:type="am:RunnableCall" runnable="Runnable4?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable5?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable6?type=Runnable"/>
+      </activityGraph>
+    </tasks>
+    <tasks xmi:id="Task3?type=Task" name="Task3" stimuli="Period_stimuli?type=PeriodicStimulus" multipleTaskActivationLimit="0">
+      <activityGraph>
+        <items xsi:type="am:RunnableCall" runnable="Runnable7?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable8?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable9?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable10?type=Runnable"/>
+        <items xsi:type="am:RunnableCall" runnable="Runnable11?type=Runnable"/>
+      </activityGraph>
+    </tasks>
+    <runnables xmi:id="Runnable1?type=Runnable" name="Runnable1" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Button_status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="App_Status?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable2?type=Runnable" name="Runnable2" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="App_Status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Sensor_Status?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Loading_Func?type=Runnable" name="Loading_Func" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="App_Status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Driver_App_Loading?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable3?type=Runnable" name="Runnable3" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Sensor_Status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Sent_Signals?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable4?type=Runnable" name="Runnable4" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Received_Signals?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Available_Spots?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable5?type=Runnable" name="Runnable5" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Available_Spots?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Actions?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable6?type=Runnable" name="Runnable6" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Actions?type=Label" access="read"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable7?type=Runnable" name="Runnable7" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Parking_Type?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Parking_Mode?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable8?type=Runnable" name="Runnable8" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Parking_Mode?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="isParking_over?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable9?type=Runnable" name="Runnable9" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="App_Status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Sensor_Status?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable10?type=Runnable" name="Runnable10" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Sensor_Status?type=Label" access="read"/>
+        <items xsi:type="am:LabelAccess" data="Button_status?type=Label" access="write"/>
+      </activityGraph>
+    </runnables>
+    <runnables xmi:id="Runnable11?type=Runnable" name="Runnable11" callback="false" service="false">
+      <activityGraph>
+        <items xsi:type="am:LabelAccess" data="Button_status?type=Label" access="read"/>
+      </activityGraph>
+    </runnables>
+    <labels xmi:id="Button_status?type=Label" name="Button_status" constant="false" bVolatile="false"/>
+    <labels xmi:id="App_Status?type=Label" name="App_Status" constant="false" bVolatile="false"/>
+    <labels xmi:id="Sensor_Status?type=Label" name="Sensor_Status" constant="false" bVolatile="false"/>
+    <labels xmi:id="Sent_Signals?type=Label" name="Sent_Signals" constant="false" bVolatile="false"/>
+    <labels xmi:id="Received_Signals?type=Label" name="Received_Signals" constant="false" bVolatile="false"/>
+    <labels xmi:id="Available_Spots?type=Label" name="Available_Spots" constant="false" bVolatile="false"/>
+    <labels xmi:id="Actions?type=Label" name="Actions" constant="false" bVolatile="false"/>
+    <labels xmi:id="Parking_Type?type=Label" name="Parking_Type" constant="false" bVolatile="false"/>
+    <labels xmi:id="Parking_Mode?type=Label" name="Parking_Mode" constant="false" bVolatile="false"/>
+    <labels xmi:id="Driver_App_Loading?type=Label" name="Driver_App_Loading" constant="false" bVolatile="false"/>
+    <labels xmi:id="isParking_over?type=Label" name="isParking_over" constant="false" bVolatile="false"/>
+  </swModel>
+  <hwModel>
+    <definitions xsi:type="am:ProcessingUnitDefinition" xmi:id="PU_Def?type=ProcessingUnitDefinition" name="PU_Def"/>
+    <definitions xsi:type="am:MemoryDefinition" xmi:id="Mem_Def?type=MemoryDefinition" name="Mem_Def"/>
+    <structures xmi:id="Central+Unit?type=HwStructure" name="Central Unit" structureType="ECU">
+      <structures xmi:id="Mechanical+ECU?type=HwStructure" name="Mechanical ECU" structureType="ECU">
+        <ports xmi:id="Mechanical+ECU/Mechanilcal_ECU_Port2?type=HwPort" name="Mechanilcal_ECU_Port2" bitWidth="0" priority="0"/>
+        <ports xmi:id="Mechanical+ECU/Mechanical_ECU_Port3?type=HwPort" name="Mechanical_ECU_Port3" bitWidth="0" priority="0"/>
+        <modules xsi:type="am:Memory" xmi:id="Mechanical+Memory?type=Memory" name="Mechanical Memory" powerDomain="Power_Dom?type=PowerDomain" frequencyDomain="Freq_Dom?type=FrequencyDomain" definition="Mem_Def?type=MemoryDefinition">
+          <ports xmi:id="Mechanical+Memory/Mechanical+Memory+Port?type=HwPort" name="Mechanical Memory Port" bitWidth="0" priority="0" portType="initiator" portInterface="custom"/>
+          <ports xmi:id="Mechanical+Memory/Mechanical+Memory+Port+2?type=HwPort" name="Mechanical Memory Port 2" bitWidth="0" priority="0" portInterface="custom"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Brake+Unit?type=ProcessingUnit" name="Brake Unit" powerDomain="Power_Dom?type=PowerDomain" frequencyDomain="Freq_Dom?type=FrequencyDomain" definition="PU_Def?type=ProcessingUnitDefinition">
+          <accessElements name="Brake_Value" destination="Mechanical+Memory?type=Memory"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Gas+Unit?type=ProcessingUnit" name="Gas Unit" definition="PU_Def?type=ProcessingUnitDefinition">
+          <accessElements name="Gas_Value" destination="Mechanical+Memory?type=Memory"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Wheel+Encoder+Unit?type=ProcessingUnit" name="Wheel Encoder Unit">
+          <accessElements name="Rotation_Value" destination="Mechanical+Memory?type=Memory"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Gear+Unit?type=ProcessingUnit" name="Gear Unit">
+          <accessElements name="Gear_Info" destination="Mechanical+Memory?type=Memory"/>
+        </modules>
+      </structures>
+      <structures xmi:id="Sensor+ECU?type=HwStructure" name="Sensor ECU">
+        <ports xmi:id="Sensor+ECU/Sensor_ECU_Port?type=HwPort" name="Sensor_ECU_Port" bitWidth="0" priority="0"/>
+        <ports xmi:id="Sensor+ECU/Sensor_ECU_Port2?type=HwPort" name="Sensor_ECU_Port2" bitWidth="0" priority="0"/>
+        <modules xsi:type="am:Memory" xmi:id="Sensor+Memory?type=Memory" name="Sensor Memory" powerDomain="Power_Dom?type=PowerDomain" frequencyDomain="Freq_Dom?type=FrequencyDomain" definition="Mem_Def?type=MemoryDefinition">
+          <ports xmi:id="Sensor+Memory/Sensor+Memory+Port?type=HwPort" name="Sensor Memory Port" bitWidth="0" priority="0" portType="initiator" portInterface="custom"/>
+          <ports xmi:id="Sensor+Memory/Sensor+Memory+Port+2?type=HwPort" name="Sensor Memory Port 2" bitWidth="0" priority="0"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Camera+Unit?type=ProcessingUnit" name="Camera Unit">
+          <accessElements name="Distance_Value" destination="Sensor+Memory?type=Memory"/>
+        </modules>
+        <modules xsi:type="am:ProcessingUnit" xmi:id="Radar+Unit?type=ProcessingUnit" name="Radar Unit">
+          <accessElements name="Distance_Value" destination="Sensor+Memory?type=Memory"/>
+        </modules>
+      </structures>
+      <modules xsi:type="am:Memory" xmi:id="Central+Unit+Memory?type=Memory" name="Central Unit Memory" powerDomain="Power_Dom?type=PowerDomain" frequencyDomain="Freq_Dom?type=FrequencyDomain" definition="Mem_Def?type=MemoryDefinition">
+        <ports xmi:id="Central+Unit+Memory/Central_Unit_Memory+Port?type=HwPort" name="Central_Unit_Memory Port" bitWidth="0" priority="0" portInterface="custom"/>
+        <ports xmi:id="Central+Unit+Memory/Central+Unit+Memory+Port+2?type=HwPort" name="Central Unit Memory Port 2" bitWidth="0" priority="0"/>
+      </modules>
+      <connections xmi:id="Central+Unit/Mechanic+Informations?type=HwConnection" name="Mechanic Informations" port1="Mechanical+Memory/Mechanical+Memory+Port?type=HwPort" port2="Central+Unit+Memory/Central_Unit_Memory+Port?type=HwPort"/>
+      <connections xmi:id="Central+Unit/Sensor+Information?type=HwConnection" name="Sensor Information" port1="Mechanical+Memory/Mechanical+Memory+Port+2?type=HwPort" port2="Sensor+Memory/Sensor+Memory+Port?type=HwPort"/>
+      <connections xmi:id="Central+Unit/Sensor+Values?type=HwConnection" name="Sensor Values" port1="Sensor+Memory/Sensor+Memory+Port+2?type=HwPort" port2="Central+Unit+Memory/Central+Unit+Memory+Port+2?type=HwPort"/>
+    </structures>
+    <domains xsi:type="am:FrequencyDomain" xmi:id="Freq_Dom?type=FrequencyDomain" name="Freq_Dom" clockGating="false"/>
+    <domains xsi:type="am:PowerDomain" xmi:id="Power_Dom?type=PowerDomain" name="Power_Dom" powerGating="false"/>
+  </hwModel>
+  <osModel>
+    <operatingSystems name="">
+      <taskSchedulers xmi:id="Scheduler1?type=TaskScheduler" name="Scheduler1" definition="Schedule_Def1?type=SchedulerDefinition"/>
+      <taskSchedulers xmi:id="Scheduler2?type=TaskScheduler" name="Scheduler2" definition="Schedule_Def1?type=SchedulerDefinition">
+        <parentAssociation parent="Scheduler1?type=TaskScheduler"/>
+      </taskSchedulers>
+      <taskSchedulers xmi:id="Scheduler3?type=TaskScheduler" name="Scheduler3" definition="Schedule_Def1?type=SchedulerDefinition">
+        <parentAssociation parent="Scheduler1?type=TaskScheduler"/>
+      </taskSchedulers>
+    </operatingSystems>
+    <schedulerDefinitions xmi:id="Schedule_Def1?type=SchedulerDefinition" name="Schedule_Def1" requiresParentScheduler="false" passesParametersUpwards="false" hasExactlyOneChild="false"/>
+  </osModel>
+  <stimuliModel>
+    <stimuli xsi:type="am:PeriodicStimulus" xmi:id="Period_stimuli?type=PeriodicStimulus" name="Period_stimuli">
+      <recurrence value="50" unit="s"/>
+    </stimuli>
+    <stimuli xsi:type="am:SingleStimulus" xmi:id="single_stimulus?type=SingleStimulus" name="single_stimulus">
+      <occurrence value="1" unit="s"/>
+    </stimuli>
+  </stimuliModel>
+  <mappingModel>
+    <schedulerAllocation scheduler="Scheduler1?type=TaskScheduler" responsibility="Brake+Unit?type=ProcessingUnit Gas+Unit?type=ProcessingUnit Gear+Unit?type=ProcessingUnit Wheel+Encoder+Unit?type=ProcessingUnit"/>
+    <schedulerAllocation scheduler="Scheduler2?type=TaskScheduler" responsibility="Camera+Unit?type=ProcessingUnit Radar+Unit?type=ProcessingUnit"/>
+    <schedulerAllocation scheduler="Scheduler3?type=TaskScheduler" responsibility="Brake+Unit?type=ProcessingUnit Camera+Unit?type=ProcessingUnit Gas+Unit?type=ProcessingUnit Gear+Unit?type=ProcessingUnit Radar+Unit?type=ProcessingUnit Wheel+Encoder+Unit?type=ProcessingUnit"/>
+    <taskAllocation task="Task1?type=Task" scheduler="Scheduler1?type=TaskScheduler"/>
+    <taskAllocation task="Task2?type=Task" scheduler="Scheduler2?type=TaskScheduler"/>
+    <taskAllocation task="Task3?type=Task" scheduler="Scheduler3?type=TaskScheduler"/>
+    <memoryMapping abstractElement="Button_status?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="App_Status?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Sensor_Status?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Sent_Signals?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Received_Signals?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Available_Spots?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Actions?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Parking_Type?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Parking_Mode?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+    <memoryMapping abstractElement="Driver_App_Loading?type=Label" memory="Mechanical+Memory?type=Memory" memoryPositionAddress="0x0"/>
+  </mappingModel>
+</am:Amalthea>
